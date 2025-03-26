@@ -243,7 +243,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
 --------------------------------------*/
 .welcome-hero {
     position: relative;
-    background:url(../images/welcome-hero/banner.jpg)no-repeat;
+    background:url(../images/welcome-hero/welcomePageImage.jpg)no-repeat;
     background-position:center;
     background-size:cover;
     text-align: center;
@@ -948,4 +948,29 @@ nav.navbar.bootsnav .navbar-toggle i{color: #ff545a;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
+
+.team-member-img img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+}
+
+.single-team-member {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-member-info h3 {
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.team-member-info p {
+    font-size: 16px;
+    color: #777;
+}
+
 /*========================Thank you=================
