@@ -176,43 +176,93 @@ Author: mwa0000024241858
 					<p><b><u>PM2.5 and PM10 Readings</u></b></p>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=PM10++Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/2?bgcolor=%23ffffff&color=%231a8cff&dynamic=true&results=60&title=PM2.5+Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+					<br><br><br>
+					<div class="boxContainer">
+						<div class="box">
+							<p>
+								In the PM2.5 and PM10 Readings section, it shows the air pollution readings over time for at least 2 weeks. 
+								<br><br>
+								<b>Left Graph (PM10 Reading)</b>
+								<ul style="list-style-type: disc; margin-left: 20px;">
+									<li>The red line represents PM10 concentration over time.</li>
+									<li>The y-axis is labeled in µg/m³ (micrograms per cubic meter).</li>
+									<li>The x-axis represents the date.</li>
+								</ul>
+								<br><br><br>
+								
+								<b>Right Graph (PM2.5 Reading)</b>
+								<ul style="list-style-type: disc; margin-left: 20px;">
+									<li>The blue line represents PM2.5 concentration over time.</li>
+									<li>The y-axis is labeled in µg/m³. (micrograms per cubic meter).</li>
+									<li>The x-axis represents dates.</li>
+								</ul>
+								<br><br>
+								<b>PM10 Air Pollution Standards:</b><br>
+								<table>
+									<tr>
+										<th>PM₁₀ (µg/m³)</th>
+										<th>Colour</th>
+										<th>Class of Classification</th>
+									</tr>
+									<tr>
+										<td>0 - 50</td>
+										<td><span class="color-box good"></span></td>
+										<td>Good</td>
+									</tr>
+									<tr>
+										<td>51 - 100</td>
+										<td><span class="color-box moderate"></span></td>
+										<td>Moderate</td>
+									</tr>
+									<tr>
+										<td>101 - 199</td>
+										<td><span class="color-box unhealthy"></span></td>
+										<td>Unhealthy</td>
+									</tr>
+									<tr>
+										<td>200 - 300</td>
+										<td><span class="color-box very-unhealthy"></span></td>
+										<td>Very Unhealthy</td>
+									</tr>
+									<tr>
+										<td>> 300</td>
+										<td><span class="color-box dangerous"></span></td>
+										<td>Dangerous</td>
+									</tr>
+								</table>
+								
+							</p>
+						</div>
+					</div>
 					<br><br><br><br><p><b><u>Air Quality Indexes Reading</u></b></p>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=Air+Quality+Index+%28AQI%29&type=column&xaxis=Time&yaxis=IJP+level"></iframe>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=National+Air+Quality+Indices+%28NAQI%29+PM10&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=National+Air+Quality+Indices+%28NAQI%29+PM2.5&type=line&xaxis=Time&yaxis=IJP+level"></iframe>
-					<br><br><br><br><p><b><u>PM2.5 and PM10 Correlation Readings</u></b></p>
+					<br><br><br>
+					<div class="boxContainer">
+						<div class="box">
+							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
+							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
+							a Plantower PMS5003 based sensor. Computed AQI available.
+						</div>
+					</div>
+					<br><br><br><br><p><b><u>PM2.5 and PM10 Correlation Readings and Data Visualizations</u></b></p>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=PM10+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/8?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=60&title=PM%282.5-10%29+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
 					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/607808"></iframe>
+					<br><br><br>
+					<div class="boxContainer">
+						<div class="box">
+							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
+							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
+							a Plantower PMS5003 based sensor. Computed AQI available.
+						</div>
+					</div>
 					<br><br><br><br><br><br>
 
-					<div class="boxContainer">
-						<div class="box">
-							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
-							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
-							a Plantower PMS5003 based sensor. Computed AQI available.
-						</div>
-					</div>
+				
 
-					<br><br><br>
-
-					<div class="boxContainer">
-						<div class="box">
-							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
-							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
-							a Plantower PMS5003 based sensor. Computed AQI available.
-						</div>
-					</div>
-
-					<br><br><br>
-
-					<div class="boxContainer">
-						<div class="box">
-							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
-							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
-							a Plantower PMS5003 based sensor. Computed AQI available.
-						</div>
-					</div>
+					
 				
 				</div><!--/.section-header-->
 				<div class="explore-content">
