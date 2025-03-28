@@ -151,11 +151,13 @@ Author: mwa0000024241858
 					Description:<br>
 					This channel extracts data from a public channel on the amateur air pollution monitoring station in 
 					Skierniewice, Poland. Air pollution monitoring channel updates  with PM10, 
-					PM2.5 and PM1 readings from LookO2, a Plantower PMS5003 based sensor. Computed AQI available.
+					PM2.5 and PM1 readings from LookO2, a Plantower PMS5003 based sensor. Computed AQI available.<br>
+					Link to channel source: <a href="https://thingspeak.mathworks.com/channels/343018">https://thingspeak.mathworks.com/channels/343018</a>
 					<br><br><br>
 					<b>Own public channel</b><br><br>
 					Channel ID: 2851826<br>
-					Author: mwa0000024241858
+					Author: mwa0000024241858<br>
+					Link to public channel: <a href="https://thingspeak.mathworks.com/channels/2851826">https://thingspeak.mathworks.com/channels/2851826</a>
 				</p>
 				</div><!--/.section-header-->
 
@@ -181,55 +183,58 @@ Author: mwa0000024241858
 						<div class="box">
 							<p>
 								In the PM2.5 and PM10 Readings section, it shows the air pollution readings over time for at least 2 weeks. 
-								<br><br>
-								<b>Left Graph (PM10 Reading)</b>
-								<ul style="list-style-type: disc; margin-left: 20px;">
-									<li>The red line represents PM10 concentration over time.</li>
-									<li>The y-axis is labeled in µg/m³ (micrograms per cubic meter).</li>
-									<li>The x-axis represents the date.</li>
-								</ul>
-								<br><br><br>
 								
-								<b>Right Graph (PM2.5 Reading)</b>
-								<ul style="list-style-type: disc; margin-left: 20px;">
-									<li>The blue line represents PM2.5 concentration over time.</li>
-									<li>The y-axis is labeled in µg/m³. (micrograms per cubic meter).</li>
-									<li>The x-axis represents dates.</li>
-								</ul>
 								<br><br>
 								<b>PM10 Air Pollution Standards:</b><br>
 								<table>
 									<tr>
-										<th>PM₁₀ (µg/m³)</th>
-										<th>Colour</th>
-										<th>Class of Classification</th>
+										<th style="color: black;">PM2.5</th>
+										<th style="color: black;">PM10</th>
+										<th style="color: black;">Status</th>
 									</tr>
-									<tr>
-										<td>0 - 50</td>
-										<td><span class="color-box good"></span></td>
-										<td>Good</td>
+									<tr class="good">
+										<td style="color: black;">0.0-12.0</td>
+										<td style="color: black;">0-54</td>
+										<td style="color: black;">Good</td>
 									</tr>
-									<tr>
-										<td>51 - 100</td>
-										<td><span class="color-box moderate"></span></td>
-										<td>Moderate</td>
+									<tr class="moderate">
+										<td style="color: black;">12.1-35.4</td>
+										<td style="color: black;">55-154</td>
+										<td style="color: black;">Moderate</td>
 									</tr>
-									<tr>
-										<td>101 - 199</td>
-										<td><span class="color-box unhealthy"></span></td>
-										<td>Unhealthy</td>
+									<tr class="unhealthy-sensitive">
+										<td style="color: black;">35.5-55.4</td>
+										<td style="color: black;">155-254</td>
+										<td style="color: black;">Unhealthy for Sensitive Groups</td>
 									</tr>
-									<tr>
-										<td>200 - 300</td>
-										<td><span class="color-box very-unhealthy"></span></td>
-										<td>Very Unhealthy</td>
+									<tr class="unhealthy">
+										<td style="color: black;">55.5-150.4</td>
+										<td style="color: black;">255-354</td>
+										<td style="color: black;">Unhealthy</td>
 									</tr>
-									<tr>
-										<td>> 300</td>
-										<td><span class="color-box dangerous"></span></td>
-										<td>Dangerous</td>
+									<tr class="very-unhealthy">
+										<td style="color: black;">150.5-250.4</td>
+										<td style="color: black;">355-424</td>
+										<td style="color: black;">Very Unhealthy</td>
+									</tr>
+									<tr class="hazardous">
+										<td style="color: black;">&ge;250.5</td>
+										<td style="color: black;">&ge;425</td>
+										<td style="color: black;">Hazardous</td>
 									</tr>
 								</table>
+								<br><br>
+								Based on the graphs, both PM10 and PM2.5 levels show fluctuations over time. 
+								The various peaks indicates a significant increase in air pollution on that 
+								specific day. The pollution levels decrease after the peak but remains variable. 
+								The peaks in the graphs could be due to specific factors like increased 
+								vehicle emissions, industrial activity, or environmental factors such as weather 
+								conditions or wildfires.
+								 <br><br>
+								 Both pollutants exhibit a similar pattern, with peaks occurring around the same time. 
+								 This suggests that the sources contributing to these pollutants might be related. 
+								 The PM10 readings are higher in magnitude compared to PM2.5, which is expected since 
+								 PM10 includes larger particles.
 								
 							</p>
 						</div>
@@ -241,9 +246,77 @@ Author: mwa0000024241858
 					<br><br><br>
 					<div class="boxContainer">
 						<div class="box">
-							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
-							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
-							a Plantower PMS5003 based sensor. Computed AQI available.
+							In the Air Quality Indexes Reading section, it shows the AQI readings over time for at least 2 weeks. 
+								
+								<br><br>
+								<b>AQI Standards:</b><br><br>
+								<table>
+									<tr>
+										<th style="color: black;">AQI</th>
+										<th style="color: black;">Status</th>
+										<th style="color: black;">Description of Air Quality</th>
+									</tr>
+									<tr class="good">
+										<td style="color: black;">0-50</td>
+										<td style="color: black;">Good</td>
+										<td style="color: black;">
+											Air quality is satisfactory, and air pollution poses little or no 
+											risk.
+										</td>
+									</tr>
+									<tr class="moderate">
+										<td style="color: black;">51-100</td>
+										<td style="color: black;">Moderate</td>
+										<td style="color: black;">
+											Air quality is acceptable. However, there may be a risk for some 
+											people, particularly those who are unusually sensitive to air pollution.
+										</td>
+									</tr>
+									<tr class="unhealthy-sensitive">
+										<td style="color: black;">101-150</td>
+										<td style="color: black;">Unhealthy for Sensitive Groups</td>
+										<td style="color: black;">
+											Members of sensitive groups may experience health effects. The general 
+											public is less likely to be affected.
+										</td>
+									</tr>
+									<tr class="unhealthy">
+										<td style="color: black;">151-200</td>
+										<td style="color: black;">Unhealthy</td>
+										<td style="color: black;">
+											Some members of the general public may experience health effects; members 
+											of sensitive groups may experience more serious health effects
+										</td>
+									</tr>
+									<tr class="very-unhealthy">
+										<td style="color: black;">201-300</td>
+										<td style="color: black;">Very Unhealthy</td>
+										<td style="color: black;">
+											Health alert: The risk of health effects is increased for everyone.
+										</td>
+									</tr>
+									<tr class="hazardous">
+										<td style="color: black;">≥301</td>
+										<td style="color: black;">Hazardous</td>
+										<td style="color: black;">
+											Health warning of emergency conditions: everyone is more likely to be 
+											affected.
+										</td>
+									</tr>
+								</table>
+								<br><br>
+								The <b>Air Quality Index (AQI</b>) is a measure created by government agencies to inform the public 
+								about current or expected air pollution levels. Higher pollution levels result in a higher AQI.<br><br>
+								Similarly, the <b>National Air Quality Index (NAQI)</b> is a measure used to assess and communicate 
+								the quality of air based on various pollutants, including PM₂.₅ and PM₁₀. NAQI provides 
+								a standardized way to inform the public about air pollution levels and potential health effects.This informaiton
+								 is obtained from the research paper titled <i>"An exploratory analysis of PM2.5/PM10 ratio during spring 2016–2018 
+									in Metropolitan Lima"</i>, with lead author Rita Jaqueline Cabello‑Torres.
+									<br><br>
+									The NAQI for both PM10 and PM2.5 are calculated by us with the equation mentioned in the research paper. 
+									The result from our calculation shows a similar pattern to the AQI graph extracted from the public channel in
+									 ThingSpeak. 
+
 						</div>
 					</div>
 					<br><br><br><br><p><b><u>PM2.5 and PM10 Correlation Readings and Data Visualizations</u></b></p>
@@ -253,9 +326,9 @@ Author: mwa0000024241858
 					<br><br><br>
 					<div class="boxContainer">
 						<div class="box">
-							<b>Description:</b> This channel extracts data from a public channel on the amateur air pollution monitoring station 
-							in Skierniewice, Poland. Air pollution monitoring channel updates with PM10, PM2.5, and PM1 readings from LookO2, 
-							a Plantower PMS5003 based sensor. Computed AQI available.
+							In the PM2.5 and PM10 Correlation Readings and Data Visualizations section, it shows the correlation readings over time 
+							for at least 2 weeks.
+							
 						</div>
 					</div>
 					<br><br><br><br><br><br>
