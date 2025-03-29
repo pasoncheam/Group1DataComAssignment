@@ -162,7 +162,7 @@
 		<section id="works" class="works">
 			<div class="container">
 				<div class="section-header">
-					<h2>About Us</h2>
+					<br><h2>About Us</h2>
 					<p>Welcome to our IoT Analytics Project, developed as part of our <B>BEE 3033 Data Communication and Networks</B> course. 
 						This project highlights the power of Internet of Things (IoT) and cloud-based data analytics by integrating 
 						ThingSpeak to collect, analyze, and visualize real-time sensor data.
@@ -235,7 +235,7 @@
 		<section id="explore" class="explore">
 			<div class="container">
 				<div class="section-header">
-					<h2>Live IoT Analytics</h2>
+					<br><h2>Live IoT Analytics</h2>
 					<p>Contains extracted data and data visualizations from ThingSpeak</p>
 				</div><!--/.section-header-->
 				<div class="explore-content">
@@ -384,10 +384,10 @@
 		<section id="team" class="team" >
 			<div class="container">
 				<div class="section-header">
-					<h2>Team Members</h2>
+					<br><h2>Team Members</h2>
 					<br><br>
-					<!--<p>Always upto date with our latest News and Articles </p>
-				</div>/.section-header-->
+					<!--<p>Always upto date with our latest News and Articles </p>-->
+				</div>
 				<div class="container">
 					<div class="row">
 						<div class="col-md-4 col-sm-6">
@@ -428,6 +428,37 @@
 				</div>
 		</section><!--/.blog-->
 		<!--blog end -->
+
+		<!--blog start -->
+		<section id="downloadPdf" class="downloadPdf" >
+			<div class="container">
+				<div class="section-header">
+					<br><br><br><h2>Download Report</h2>
+					<br><br>
+					<!--<p>Always upto date with our latest News and Articles </p>-->
+				</div>
+				<div class="container">
+					<div class="row" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; height: 10vh;">
+						<p>Click the button below to download the report file.</p>
+						<button class="btn" id="btn" style="width:30%" disabled><i class="fa fa-download"></i> TBA</button>
+						<br><br>
+
+					</div>
+				</div>
+				<script>
+					document.getElementById("btn").addEventListener("click", function() {
+						const pdfUrl = "BEE3033_Lesson 2_Data Transmission.pdf"; // Replace with the actual PDF file path
+						const link = document.createElement("a");
+						link.href = pdfUrl;
+						link.download = "document.pdf";
+						document.body.appendChild(link);
+						link.click();
+						document.body.removeChild(link);
+					});
+				</script>
+		</section><!--/.blog-->
+		<!--blog end -->
+
 
 		<!--subscription strat -->
 		<section id="contact"  class="subscription">
@@ -482,7 +513,7 @@
 					<div class="row">
 						<div class="col-sm-5">
 							<p>
-								&copy;copyright. developed by <a href="https://github.com/pasoncheam"><b>Pason Cheam Tung Huay</b></a>
+								Developed by <a href="https://github.com/pasoncheam"><b>Pason Cheam Tung Huay</b></a>
 							</p><!--/p-->
 						</div>
 						<div class="col-sm-7">

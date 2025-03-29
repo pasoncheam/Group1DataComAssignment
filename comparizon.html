@@ -12,7 +12,7 @@
 		<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
         
         <!-- title of site -->
-        <title>Channel 2</title>
+        <title>Comparizon</title>
 
         <!-- For favicon png -->
 		<link rel="shortcut icon" type="image/icon" href="assets/logo/favicon.png"/>
@@ -102,7 +102,7 @@
 			                <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
 			                    <li><a href="index.html">Home</a></li>
 			                    <li><a href="channel1DV.html">Channel 1</a></li>
-                                <li><a href="comparizon.html">Comparizon</a></li>
+                                <li><a href="channel2DV.html">Channel 2</a></li>
 			                    <!--<li class="scroll"><a href="#blog">blog</a></li>-->
 			                    <!--<li class="scroll"><a href="#contact">contact</a></li>-->
 			                </ul><!--/.nav -->
@@ -117,10 +117,10 @@
 		<!-- top-area End -->
 
 		<!--welcome-hero start -->
-		<section id="home" class="welcome-data2">
+		<section id="home" class="welcome-data3">
 			<div class="container">
 				<div class="welcome-hero-txt">
-					<h2>Channel 2 Data Visualizations</h2>
+					<h2>Comparizon between channel 1 and channel 2</h2>
 					<p>
 						Live IoT Analytics 
 					</p>
@@ -134,29 +134,34 @@
 		<section id="works" class="works">
 			<div class="container">
 				<div class="section-header">
-					<h2><u>Channel information</u></h2>
-				<!--
-				Channel source
-Channel ID: 343018
-Author: kburghardt
-description:
-
-Own public channel
-Channel ID: 2851826
-Author: mwa0000024241858	
-				-->
+					<h2><u>Comparizon analysis</u></h2>
+				
 				<p style="text-align: left;">
-					<b>Channel source</b><br><br>
-					Author: angiesoft<br>
-					Channel ID: 820214<br><br>
-					Description:<br>
-					This channel extracts data from a public channel on the fine dust measurement PM10 & PM2.5 next to the Greding webcam.<br>
-					Link to channel source: <a href="https://thingspeak.mathworks.com/channels/820214">https://thingspeak.mathworks.com/channels/820214</a>
-					<br><br><br>
-					<b>Own public channel</b><br><br>
-					Channel ID: 2852320<br>
-					Author: mwa0000024241858<br>
-					Link to public channel: <a href="https://thingspeak.mathworks.com/channels/2852320">https://thingspeak.mathworks.com/channels/2852320</a>
+					With the growing concerns over air pollution and its impact on public health, real-time air quality 
+                    monitoring has become a crucial aspect of environmental studies. ThingSpeak, an IoT analytics platform, 
+                    allows users to collect, analyze, and visualize sensor data in real time. When comparing air pollution data 
+                    from two different ThingSpeak channels, key factors such as particulate matter levels (PM2.5, PM10), 
+                    data accuracy, and environmental variations must be considered.
+                    <br><br>
+                    This comparison involves analyzing sensor readings from two locations or different monitoring devices to 
+                    identify trends, variations, and potential correlations. The process requires efficient data communication 
+                    and networking, as the air quality sensors continuously transmit real-time data to cloud-based platforms 
+                    for remote access and processing.
+                    <br><br><br>
+                    <b>Relation to Data Communications and Networks</b>
+                    <br><br>
+                    In the context of data communications and networking, the transmission of air pollution data from multiple 
+                    sources to ThingSpeak involves several key concepts:
+                    <br>
+                    <b><i>IoT Communication Protocols –</i></b> Sensors use communication protocols such as MQTT (Message Queuing Telemetry Transport) or HTTP requests to send air quality data to ThingSpeak servers efficiently.
+                    <br>
+                    <b><i>Network Infrastructure –</i></b> The sensors rely on Wi-Fi, cellular networks, or LoRaWAN to transmit data to the cloud, ensuring seamless data collection.
+                    <br>
+                    <b><i>Data Synchronization –</i></b> Comparing air pollution data from two channels requires synchronized timestamps, ensuring accuracy in multi-location data analysis.
+                    <br>
+                    <b><i>Cloud Computing & Storage –</i></b> ThingSpeak acts as a cloud-based platform where data is stored and retrieved for analysis, allowing users to compare pollution levels across different regions.
+                    <br>
+                    <b><i>Data Visualization & Interpretation –</i></b> The collected data is visualized using graphs, statistical models, and AI-driven analytics, providing insights into air pollution trends and helping in decision-making for pollution control measures.
 				</p>
 				</div><!--/.section-header-->
 
@@ -171,243 +176,190 @@ Author: mwa0000024241858
 		<section id="explore" class="explore">
 			<div class="container">
 				<div class="section-header">
-					<h2>Channel statistics</h2>
-					<p>Contains extracted data and data visualizations from ThingSpeak</p><br><br><br>
+					<h2>Results comparizon</h2>
+					<p>Comparison of ThingSpeak data and visualizations.</p><br><br><br>
 
-					<p><b><u>PM2.5 and PM10 Readings</u></b></p>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10++Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/2?bgcolor=blue&color=%23d62020&dynamic=true&results=10000&title=PM2.5+Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
-					<br><br><br>
-					<div class="boxContainer">
-						<div class="box">
-							<p>
-								In the PM2.5 and PM10 Readings section, it shows the air pollution readings over time for at least 2 weeks. 
-								
-								<br><br>
-								<b>PM10 Air Pollution Standards:</b><br>
-								<table>
-									<tr>
-										<th style="color: black;">PM2.5</th>
-										<th style="color: black;">PM10</th>
-										<th style="color: black;">Status</th>
-									</tr>
-									<tr class="good">
-										<td style="color: black;">0.0-12.0</td>
-										<td style="color: black;">0-54</td>
-										<td style="color: black;">Good</td>
-									</tr>
-									<tr class="moderate">
-										<td style="color: black;">12.1-35.4</td>
-										<td style="color: black;">55-154</td>
-										<td style="color: black;">Moderate</td>
-									</tr>
-									<tr class="unhealthy-sensitive">
-										<td style="color: black;">35.5-55.4</td>
-										<td style="color: black;">155-254</td>
-										<td style="color: black;">Unhealthy for Sensitive Groups</td>
-									</tr>
-									<tr class="unhealthy">
-										<td style="color: black;">55.5-150.4</td>
-										<td style="color: black;">255-354</td>
-										<td style="color: black;">Unhealthy</td>
-									</tr>
-									<tr class="very-unhealthy">
-										<td style="color: black;">150.5-250.4</td>
-										<td style="color: black;">355-424</td>
-										<td style="color: black;">Very Unhealthy</td>
-									</tr>
-									<tr class="hazardous">
-										<td style="color: black;">&ge;250.5</td>
-										<td style="color: black;">&ge;425</td>
-										<td style="color: black;">Hazardous</td>
-									</tr>
-								</table>
-								<br><br>
-								Based on the graphs, The PM10 readings fluctuate significantly, with occasional spikes exceeding 400 µg/m³. 
-                                Frequent peaks indicate short-term events of high air pollution.
-                                 The baseline values seem to stay below 100 µg/m³, but there are multiple sharp increases. Similar to PM10, 
-                                 the PM2.5 values also show fluctuations, though the spikes are lower, reaching around 250 µg/m³ at the highest. 
-                                 The baseline appears to be lower than that of PM10, staying below 50 µg/m³ most of the time. 
-                                 There are periodic peaks, indicating moments of poor air quality.
-                                 <br><br>
-                                 Both PM10 and PM2.5 levels show high variability, with frequent pollution spikes. PM10 generally has higher 
-                                 readings than PM2.5, which is expected as PM10 includes larger particles. The presence of frequent spikes 
-                                 suggests local pollution events, such as construction, vehicular emissions, or environmental factors like haze or dust storms. 
-                                 The general trend suggests that air quality fluctuates but remains poor during certain periods.
-								 <br><br>
-								 Both pollutants exhibit a similar pattern, with peaks occurring around the same time. 
-								 This suggests that the sources contributing to these pollutants might be related. 
-								 The PM10 readings are higher in magnitude compared to PM2.5, which is expected since 
-								 PM10 includes larger particles.
-								
-							</p>
-						</div>
-					</div>
-					<br><br><br><br><p><b><u>Air Quality Indexes Reading</u></b></p>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM10&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM2.5&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
-					<br><br><br>
-					<div class="boxContainer">
-						<div class="box">
-							In the Air Quality Indexes Reading section, it shows the AQI readings over time for at least 2 weeks. 
-								
-								<br><br>
-								<p><b>AQI Standards:</b></p><br><br>
-								<table>
-									<tr>
-										<th style="color: black;">AQI</th>
-										<th style="color: black;">Status</th>
-										<th style="color: black;">Description of Air Quality</th>
-									</tr>
-									<tr class="good">
-										<td style="color: black;">0-50</td>
-										<td style="color: black;">Good</td>
-										<td style="color: black;">
-											Air quality is satisfactory, and air pollution poses little or no 
-											risk.
-										</td>
-									</tr>
-									<tr class="moderate">
-										<td style="color: black;">51-100</td>
-										<td style="color: black;">Moderate</td>
-										<td style="color: black;">
-											Air quality is acceptable. However, there may be a risk for some 
-											people, particularly those who are unusually sensitive to air pollution.
-										</td>
-									</tr>
-									<tr class="unhealthy-sensitive">
-										<td style="color: black;">101-150</td>
-										<td style="color: black;">Unhealthy for Sensitive Groups</td>
-										<td style="color: black;">
-											Members of sensitive groups may experience health effects. The general 
-											public is less likely to be affected.
-										</td>
-									</tr>
-									<tr class="unhealthy">
-										<td style="color: black;">151-200</td>
-										<td style="color: black;">Unhealthy</td>
-										<td style="color: black;">
-											Some members of the general public may experience health effects; members 
-											of sensitive groups may experience more serious health effects
-										</td>
-									</tr>
-									<tr class="very-unhealthy">
-										<td style="color: black;">201-300</td>
-										<td style="color: black;">Very Unhealthy</td>
-										<td style="color: black;">
-											Health alert: The risk of health effects is increased for everyone.
-										</td>
-									</tr>
-									<tr class="hazardous">
-										<td style="color: black;">≥301</td>
-										<td style="color: black;">Hazardous</td>
-										<td style="color: black;">
-											Health warning of emergency conditions: everyone is more likely to be 
-											affected.
-										</td>
-									</tr>
-								</table>
-								<br><br>
-								The <b>Air Quality Index (AQI</b>) is a measure created by government agencies to inform the public 
-								about current or expected air pollution levels. Higher pollution levels result in a higher AQI.<br><br>
-								Similarly, the <b>National Air Quality Index (NAQI)</b> is a measure used to assess and communicate 
-								the quality of air based on various pollutants, including PM₂.₅ and PM₁₀. NAQI provides 
-								a standardized way to inform the public about air pollution levels and potential health effects.This informaiton
-								 is obtained from the research paper titled <i>"An exploratory analysis of PM2.5/PM10 ratio during spring 2016–2018 
-									in Metropolitan Lima"</i>, with lead author Rita Jaqueline Cabello‑Torres.
-									<br><br>
-									The NAQI for both PM10 and PM2.5 are calculated by us with the equation mentioned in the research paper. 
-									The result from our calculation shows a similar pattern to the AQI graph extracted from the public channel in
-									 ThingSpeak. 
+                    <table style="color: black;">
+                        <tr>
+                          <th colspan="3">Comparizon between channel 1 and channel 2</th>
+                        </tr>
+                        <tr>
+                            <td>Data type</td>
+                            <td>Graphs</td>
+                            <td>Differences</td>
+                        </tr>
+                        <tr>
+                            <td>PM10</td>
+                          <td>
+                            <p>Channel 1 PM10</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10++Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                            <p>Channel 2 PM10</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/1?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10++Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                          </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-High, sustained pollution with peaks around 300 µg/m³.</li>
+                                    <li>-Elevated baseline, indicating continuous pollution sources.</li>
+                                    <li>-Suggests long-term exposure risks (industrial, etc.).</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Frequent, sharp spikes exceeding 400 µg/m³, but a low baseline.</li>
+                                    <li>-Indicates short-term, temporary pollution events (traffic, construction).</li>
+                                    <li>-Requires real-time monitoring for sudden spikes.</li>
+                                </ul>
 
-						</div>
-					</div>
-					<br><br><br><br><p><b><u>PM2.5 and PM10 Correlation Readings and Data Visualizations</u></b></p>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10++Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM2.5+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
-					<iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/607844"></iframe>					<br><br><br>
-					<div class="boxContainer">
-						<div class="box">
-							In the PM2.5 and PM10 Correlation Readings and Data Visualizations section, it shows the correlation readings over time 
-							for at least 2 weeks.<br><br>
+                            </p>
+                          </td>
+                        </tr>
 
-							<p><b>What is PM Correlation?</b></p><br>
-							PM correlation refers to the statistical relationship between different types of particulate matter (PM) concentrations 
-							measured at different locations or between different PM size fractions (e.g., PM2.5 and PM10). Correlation helps understand 
-							how PM levels change together over time and space, which is useful for air pollution monitoring, health studies, and environmental policy-making.
-							<br><br>
+                        <tr>
+                            <td>PM2.5</td>
+                          <td>
+                            <p>Channel 1 PM2.5</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/2?bgcolor=%23ffffff&color=%231a8cff&dynamic=true&results=10000&title=PM2.5+Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                            <p>Channel 2 PM2.5</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/2?bgcolor=blue&color=%23d62020&dynamic=true&results=10000&title=PM2.5+Reading&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                        </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-Shows prolonged, high pollution events (peaks >150-200 µg/m³).</li>
+                                    <li>-Has a consistently elevated baseline (~50 µg/m³).</li>
+                                    <li>-Indicates sustained pollution sources (industrial, etc.).</li>
+                                    <li>-Higher health risk due to prolonged exposure.</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Features frequent, short-term pollution spikes (some >200 µg/m³), but a lower baseline.</li>
+                                    <li>-Suggests sporadic, temporary pollution sources (traffic, construction).</li>
+                                    <li>-Requires real-time monitoring for sudden changes.</li>
+                                    <li>-Still poses health risk due to the short-term high spikes.</li>
+                                </ul>
 
-							<p><b>Why is PM Correlation Important?</b></p><br>
-							<ul>
-								<li> - Helps predict air quality trends in unmonitored areas.</li>
-								<li> - Assists in identifying pollution sources and patterns.</li>
-								<li> - Supports health studies linking PM exposure to diseases.</li>
-								<li> - Improves environmental policies for air quality control.</li>	
-							</ul>
-							<br><br>
+                            </p>
+                          </td>
+                        </tr>
 
-							The PM10, PM2.5 and PM2.5-10 concentration graph 
-							shows the relationship between PM2.5, PM10, and PM2.5–10 concentrations in terms of their correlation.
-							<br><br>
+                        <tr>
+                            <td>NAQI 10</td>
+                          <td>
+                            <p>Channel 1 NAQI 10</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM10&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
+                            <p>Channel 2 NAQI 10</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/3?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM10&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
+                        </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-Initial high spike, then moderate, fluctuating pollution with periodic peaks (~150 µg/m³).</li>
+                                    <li>-Higher baseline, indicating persistent pollution.</li>
+                                    <li>-Suggests continuous sources; long-term health risks.</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Frequent, sharp, high-intensity spikes (~250-300 µg/m³), low baseline.</li>
+                                    <li>-Indicates sporadic, short-term pollution events.</li>
+                                    <li>-Requires real-time monitoring and rapid response.</li>
+                                </ul>
 
-							<table>
-								<tr>
-									<th>Data Points & Trends</th>
-									<th>Description</th>
-								</tr>
-								<tr>
-									<td><b>Black circles (PM10 data points)</b></td>
-									<td>Show a strong linear relationship with PM2.5, indicating a high correlation between the two.</td>
-								</tr>
-								<tr>
-									<td><b>PM10 Fit (Dashed line)</b></td>
-									<td>Represents the best-fit line for PM10 data, showing a nearly 1:1 relationship.</td>
-								</tr>
-								<tr>
-									<td><b>White diamonds (PM2.5–10 data points)</b></td>
-									<td>These data points are much lower and relatively flat compared to PM10.</td>
-								</tr>
-								<tr>
-									<td><b>PM2.5–10 Fit (Dotted line)</b></td>
-									<td>Shows little variation, meaning PM2.5–10 has a weaker correlation with PM2.5.</td>
-								</tr>
-							</table>
-							<br><br>
-							<p><b>Interpretation</b></p><br>
-    
-							<p>High correlation between PM10 and PM2.5:</p>
-							<br>
-							<ul>
-								<li> - PM10 levels increase proportionally with PM2.5, meaning PM2.5 is a major contributor to PM10.</li>
-								<li> - This supports the idea that fine particles (PM2.5) make up a significant portion of total particulate matter.</li>
-							</ul>
-							<br>
-							<p>Weak correlation between PM2.5–10 and PM2.5:</p>
-							<br>
-							<ul>
-								<li> - The flat trend of PM2.5–10 indicates that it does not vary significantly with PM2.5 levels.</li>
-								<li> - This suggests PM2.5 and PM2.5–10 originate from different sources.</li>
-							</ul>
-							
-						</div>
-					</div>
-					<br><br><br><br><br><br>
+                            </p>
+                          </td>
+                        </tr>
 
+                        <tr>
+                            <td>NAQI 2.5</td>
+                          <td>
+                            <p>Channel 1 NAQI 2.5</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM2.5&type=line&xaxis=Time&yaxis=IJP+level"></iframe>
+                            <p>Channel 2 NAQI 2.5</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/4?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=National+Air+Quality+Indices+%28NAQI%29+PM2.5&type=line&xaxis=Time&yaxis=IJP+Level"></iframe>
+                        </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-Initial high spike, then fluctuating, moderate pollution with periodic peaks (~600-700 µg/m³).</li>
+                                    <li>-Elevated baseline (~100-300 µg/m³), indicating persistent pollution.</li>
+                                    <li>-Suggests continuous pollution sources; long-term health risks.</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Frequent, sharp, high-intensity spikes (~800-1000 µg/m³), low baseline (~0-100 µg/m³).</li>
+                                    <li>-Indicates sporadic, short-term pollution events.</li>
+                                    <li>-Requires rapid response and real-time monitoring.</li>
+                                </ul>
+
+                            </p>
+                          </td>
+                        </tr>
+
+                        <tr>
+                            <td>PM10 correlation</td>
+                          <td>
+                            <p>Channel 1 PM10 correlation</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/7?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                            <p>Channel 2 PM10 correlation</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/5?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM10++Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                        </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-Initial high spike, then fluctuating, moderately high pollution with periodic peaks (~150-200 µg/m³).</li>
+                                    <li>-Elevated baseline (~50-100 µg/m³), indicating continuous pollution.</li>
+                                    <li>-Suggests ongoing pollution sources; long-term respiratory risks.</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Frequent, short, high-intensity spikes (some >200 µg/m³), low baseline (~0-50 µg/m³).</li>
+                                    <li>-Indicates intermittent, short-term pollution events.</li>
+                                    <li>-Requires real-time alerts and temporary ventilation.</li>
+                                </ul>
+
+                            </p>
+                          </td>
+                        </tr>
+
+                        <tr>
+                            <td>PM2.5 correlation</td>
+                          <td>
+                            <p>Channel 1 PM2.5 correlation</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2851826/charts/8?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM%282.5-10%29+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                            <p>Channel 2 PM2.5 correlation</p><br>
+                            <iframe width="450" height="260" style="border: 1px solid #cccccc;" src="https://thingspeak.com/channels/2852320/charts/6?bgcolor=%23ffffff&color=%23d62020&dynamic=true&results=10000&title=PM2.5+Correlation&type=line&xaxis=Time&yaxis=%C2%B5g%2Fm3"></iframe>
+                        </td>
+                          <td>
+                            <p>
+                                <b>Channel 1:</b>
+                                <ul>
+                                    <li>-Moderate, fluctuating PM2.5 with periodic peaks, mirroring PM10.</li>
+                                    <li>-Higher baseline (~10-20 µg/m³), indicating consistent PM2.5 presence.</li>
+                                    <li>-PM2.5 correlates strongly with PM10, suggesting shared pollution sources.</li>
+                                </ul>
+                                <br>
+                                <b>Channel 2:</b>
+                                <ul>
+                                    <li>-Frequent, short PM2.5 spikes (some >25 µg/m³), lower baseline (~5-10 µg/m³).</li>
+                                    <li>-Indicates intermittent, localized PM2.5 events.</li>
+                                    <li>-PM2.5 spikes are more frequent than PM10, suggesting some independent sources.</li>
+                                </ul>
+
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
 				
-
-					
 				
-				</div><!--/.section-header-->
-				<div class="explore-content">
-					<div class="row">
-						
-
-						
-						
-						
-					</div>
-				</div>
-			</div><!--/.container-->
 
 		</section><!--/.explore-->
 		<!--explore end -->
@@ -426,7 +378,7 @@ Author: mwa0000024241858
 			           	<div class="col-sm-9">
 			           		<ul class="footer-menu-item">
 			                    <li><a href="channel1DV.html">Channel 1</a></li>
-                                <li><a href="comparizon.html">Comparizon</a></li>
+                                <li><a href="channel2DV.html">Channel 2</a></li>
 			                </ul><!--/.nav -->
 			           	</div>
 		           </div>
@@ -435,7 +387,7 @@ Author: mwa0000024241858
 					<div class="row">
 						<div class="col-sm-5">
 							<p>
-								&copy;copyright. developed by <a href="https://github.com/pasoncheam"><b>Pason Cheam Tung Huay</b></a>
+								Developed by <a href="https://github.com/pasoncheam"><b>Pason Cheam Tung Huay</b></a>
 							</p><!--/p-->
 						</div>
 						<div class="col-sm-7">
